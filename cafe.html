@@ -10,10 +10,30 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
-    <link rel="stylesheet" href="map.css">
-    <title>Pequeños productores</title>
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Café</title>
+    <link rel="icon" href="img/platanito.png">
+
+    <style>
+    body {
+    background-image: url("");
+    background-color: #cccccc;
+    }
+    </style>
+
 </head>
 <body>
+    <!--Navbar-->
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <center>
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand"><a href="index.html"> Mexwerk </a><img src="img/estambre.png" alt="" style="height: 35px;"> <img src="img/mexicoFlag.png" alt="" style="height: 35px;"></h3>
+            </div>
+        </header>
+    </center>
+
         <h1>CAFE</h1>
         <h2>HISTORIA</h2>
         <h3>El café se introdujo en 1847 por Geronimo Manchinelli, en el municipio de Tuxtla Chico, Chis, Don Matías Romero, comenzó en 1876 con el proyecto de colonización, tras este proyecto, en los años consecuentes se establecieron 22 fincas en toda la zona.
@@ -25,7 +45,11 @@
             Una vez que los frutos maduran se procede a la recolección, cada obrero deberá elegir los mejores, que se reconocen por su color brillante y piel gruesa. Después de lo anterior, es necesario aplicar filtros de calidad a fin de eliminar los granos defectuosos y pulirlos para mejorar su aspecto.
             El producto final se almacena en bodegas con una adecuada ventilación, para luego ser transportado a los diferentes clientes.</h3>
     <center><div id="mapa1"></div></center>
-    <script src="mapcafe.js"></script>
+    <script src="js/mapcafe.js"></script>
     
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
