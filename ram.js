@@ -12,7 +12,7 @@ var meta = L.marker([14.8400 , -92.1886]).addTo(mymap);
 var hue = L.marker([15.0189, -92.3858]).addTo(mymap);
 
 
-caco.bindPopup("<b>Rambután!</b><br>Cacahoatán.").openPopup();
-tuxchi.bindPopup("<b>Rambután!</b><br>Tuxtla Chico.").openPopup();
-meta.bindPopup("<b>Rambután!</b><br>Metapa.").openPopup();
-hue.bindPopup("<b>Rambután!</b><br>Huehuetán.").openPopup();
+caco.bindPopup("<b>Rambután!</b><br>Cacahoatán.<br>La villa de Cacahoatán fue fundada por los toltecas, su significado es “Lugar del cacao” . Su asiento anterior o primitivo estaba al otro lado del río Cahuacán.").openPopup();
+tuxchi.bindPopup("<b>Rambután!</b><br>Tuxtla Chico.<br>Tuxtla Chico es una localidad mexicana ubicada en la parte sur del estado de Chiapas y cabecera del municipio del mismo nombre. Tuxtla, en náhuatl, significa: Lugar de conejos. Este es uno de los lugares más antiguos del Soconusco.").openPopup();
+meta.bindPopup("<b>Rambután!</b><br>Metapa.<br> Metapa, el significado etimológico es “Río de los magueyes”, fue una aldea de la antigua provincia del Xoconochco. ").openPopup();
+hue.bindPopup("<b>Rambután!</b><br>Huehuetán.<br>La tradición histórica refiere que el pueblo de Huehuetán, el más antiguo del Soconusco, fue fundado por el caudillo Balún Votán a su paso cuando iba a Centroamérica.").openPopup();

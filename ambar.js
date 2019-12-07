@@ -13,9 +13,9 @@ var tux = L.marker([16.7535, -93.1167]).addTo(mymap);
 
 
 
-sancris.bindPopup("<b>Ámbar!</b><br>San Cristobal de las Casas.").openPopup();
-simo.bindPopup("<b>Ámbar!</b><br>Simojovel.").openPopup();
-ostu.bindPopup("<b>Ámbar!</b><br>Ostuacán.").openPopup();
-tux.bindPopup("<b>Ámbar</b><br>Tuxtla Gutierréz.").openPopup();
+sancris.bindPopup("<b>Ámbar!</b><br>San Cristobal de las Casas.<br>Es conocida por su arquitectura colonial bien conservada.").openPopup();
+simo.bindPopup("<b>Ámbar!</b><br>Simojovel.<br>Actualmente conocido por su producción de ámbar, más escaso, exótico y por tanto dos veces más caro que el báltico.").openPopup();
+ostu.bindPopup("<b>Ámbar!</b><br>Ostuacán.<br>A partir de la década de 1970 se dio un incremento en la actividad y población de Ostuacán, principalmente por la construcción de la Presa Peñitas y el establecimiento de pozos petroleros de Petróleos Mexicanos, sin embargo, el desarrollo proporcionado por esta infraestructura no se ha visto reflejada hacia la población, que sigue teniendo únicamente servicios básicos.").openPopup();
+tux.bindPopup("<b>Ámbar</b><br>Tuxtla Gutierréz.<br>Su crecimiento urbano y desarrollo económico se han acelerado desde la descentralización administrativa del gobierno, el arribo de capital nacional y extranjero que atrajo inversiones a la ciudad y el aumento de ayudas económicas al desarrollo estatal.").openPopup();
 
 
