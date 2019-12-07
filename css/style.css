@@ -22,6 +22,7 @@ html, body {
   background-image: url('../img/wp6.jpeg');
   background-size: 100%;
   background-repeat: repeat;
+  font-family: sans-serif;
 }
 
 body {
@@ -85,4 +86,8 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+}
+
+#productos{
+  margin-top: 20px;
 }
